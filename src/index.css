@@ -1,0 +1,123 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: 1px solid #f2f2f2;
+  text-decoration: inherit;
+}
+
+a:hover{
+color: #f1356d;
+}
+
+/* Logo */
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+  margin-left: auto;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+/* Navbar */
+
+.navbar{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.navbar h1{
+  color: #f1356d;
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+
+.navbar a{
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.navbar a:hover{
+  color: #242424;;
+  border-radius: 25px;
+  background-color: #f2f2f2;
+
+}
+
+
+
+/* Input page */
+
+.userInput{
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center
+
+}
+
+.userInput label{
+  text-align: left;
+  display: block;
+
+}
+
+.userInput input,
+.userInput textarea,
+.userInput select{
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+
+}
+
+.userInput button, 
+.blog-details button{
+  padding: 0.25rem;
+  border-radius: 5rem;
+  box-shadow: 10px 3px 5px 1px rgb(255, 240, 240);
+  cursor: pointer;
+  text-align: center
+}
+
+/* Home */
+
+.blog-details, .home{
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center
+
+}
+
+.blog-details h2, .home h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin: 10px;
+}
+
